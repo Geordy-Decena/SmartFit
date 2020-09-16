@@ -132,8 +132,8 @@
 .alertDemoShadow{
     position: relative;
     top: 0px;
-    z-index: 1000000000;
-    background: black; 
+    z-index: 1000000;
+    background: transparent; 
     box-shadow: 2px 2px 2px black;
     width: 400px;
     height: 40px;
@@ -145,9 +145,12 @@
 .alertDemo{
     position: relative;
     top: 0px;
-    z-index: 100000000000000000000000;
+    z-index: 10000000;
     background: white; 
-    color: rgba(0, 0, 0, 0.7);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     top: -60px;
     width: 400px;
     height: 40px;
