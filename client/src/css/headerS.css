@@ -1,0 +1,507 @@
+.S-logoDivU {
+    position: absolute;
+    z-index: -1000000000;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: block;
+    transform: translateX(0px);
+    top: 10px;
+}
+
+.S-logoContainerU{
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+	display: block;
+	margin: auto;
+    width: 130px;
+    height: 130px;
+}
+
+.S-logo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: -65px;
+}
+
+.S-compressedHeaderDiv{
+    position: fixed;
+    top: 10px;
+    z-index: 1000000000;
+    right: 30px;
+    width: 100%;
+    height: 100px;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+.S-compressedHeader {
+    position: relative;
+    margin: auto;
+    z-index: 1000000000;
+    right: -230px;
+    width: 100px;
+    height: 100px;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+.S-compressedHeader:hover {
+    transform: scale(1);
+}
+
+.S-bar1{
+    display: block;
+    top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1000000000;
+    right: 20px;
+    width: 80px;
+    height: 8px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+}
+
+.S-bar1-entering{
+    animation: S-bar1;
+    animation-duration: 1s;
+}
+
+@keyframes S-bar1{
+    0% {transform: translateY(-150px);}
+    100% {transform: translateY(0px);}
+}
+
+.S-bar2{
+    display: block;
+    top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1000000000;
+    right: 20px;
+    width: 80px;
+    height: 8px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+}
+
+.S-bar2-entering{
+    animation: S-bar2;
+    animation-duration: 0.8s;
+}
+
+@keyframes S-bar2{
+    0% {transform: translateY(-150px);}
+    100% {transform: translateY(0px);}
+}
+
+
+.S-bar3{
+    display: block;
+    top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1000000000;
+    right: 20px;
+    width: 80px;
+    height: 8px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+}
+
+.S-bar3-entering{
+    animation: S-bar3;
+    animation-duration: 0.5s;
+}
+
+@keyframes S-bar3{
+    0% {transform: translateY(-150px);}
+    100% {transform: translateY(0px);}
+}
+
+.S-_bar1{
+    display: block;
+    top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1000000000;
+    right: 20px;
+    width: 80px;
+    height: 8px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    transform: translateY(-150px);
+}
+
+.S-_bar1-entering{
+    animation: S-_bar1;
+    animation-duration: 0.5s;
+}
+
+@keyframes S-_bar1{
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(300px);}
+}
+
+.S-_bar2{
+    display: block;
+    top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1000000000;
+    right: 20px;
+    width: 80px;
+    height: 8px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    transform: translateX(150px);
+}
+
+.S-_bar2-entering{
+    animation: S-_bar2;
+    animation-duration: 0.8s;
+}
+
+@keyframes S-_bar2{
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(300px);}
+}
+
+
+.S-_bar3{
+    display: block;
+    top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1000000000;
+    right: 20px;
+    width: 80px;
+    height: 8px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    transform: translateX(150px);
+}
+
+.S-_bar3-entering{
+    animation: S-_bar3;
+    animation-duration: 1s;
+}
+
+@keyframes S-_bar3{
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(300px);}
+}
+
+.S-modal{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 100000000;
+}
+
+.S-modal-entering{
+    animation: S-modal;
+    animation-duration: 1s;
+}
+
+@keyframes S-modal{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.S-bigHeaderTitlesDiv{
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+.S-bigHeader{
+    position: fixed;
+    top: 0px;
+    z-index: 1000000000;
+    right: 0px;
+    width: 100vw;
+    height: 500px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(rgb(255, 255, 255), 50%, rgba(255, 255, 255, 0)) !important;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.S-bigHeader-entering{
+    animation: S-bigHeader;
+    animation-duration: 1s;
+}
+
+@keyframes S-bigHeader{
+    0% {transform: translateY(-1500px);}
+    100% {transform: translateY(0px);}
+}
+
+
+.S-bigHeader h1{
+    margin: 40px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-bigHeader h1:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-bigHeader h2{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-bigHeader h2:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-bigHeader h3{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-bigHeader h3:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-bigHeader h4{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-bigHeader h4:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-bigHeader h5{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-bigHeader h5:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-bigHeader h6{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-bigHeader h6:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-_bigHeader{
+    position: fixed;
+    top: 0px;
+    z-index: 1000000000;
+    right: 0px;
+    width: 100vw;
+    height: 300px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(rgb(255, 255, 255), 50%, rgba(255, 255, 255, 0)) !important;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-1500px);
+}
+
+.S-_bigHeader-entering{
+    animation: S-_bigHeader;
+    animation-duration: 2s;
+}
+
+@keyframes S-_bigHeader{
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-1500px);}
+}
+
+.S-_modal{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 100000000;
+    transform: translateY(-1500px);
+}
+
+.S-_modal-entering{
+    animation: S-_modal;
+    animation-duration: 1s;
+}
+
+@keyframes S-_modal{
+    0% {opacity: 1; transform: translateY(0px);}
+    100% {opacity: 0; transform: translateY(0px);}
+}
+
+.S-_bigHeader h1{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-_bigHeader h1:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-_bigHeader h2{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-_bigHeader h2:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-_bigHeader h3{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-_bigHeader h3:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-_bigHeader h4{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-_bigHeader h4:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-_bigHeader h5{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-_bigHeader h5:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.S-_bigHeader h6{
+    margin: 20px 5px 0px 5px;
+    display: block;
+    z-index: 1000000000;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease-in-out;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S-_bigHeader h6:hover{
+    transform: scale(1.1) rotate(-10deg);
+}

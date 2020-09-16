@@ -1,43 +1,67 @@
-import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React, { Fragment, useEffect, useState } from 'react';
 import './App.css';
-import AppNavbar from './components/AppNavbar'
-import ExerciseList from './components/ExerciseList'
-import Selections from './components/Selections'
-import SmartWorkout from './components/SmartWorkout'
-import SmartExerciseList from './components/SmartExerciseList'
-import Home from './components/Home'
-import { Provider } from 'react-redux'
-import store from './store'
-import { Container } from 'reactstrap'
-import { loadUser } from './actions/authActions'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/header'
+import Landing from './components/landing'
+import Experience from './components/experience'
+import Projects from './components/projects'
+import AboutMe from './components/aboutMe'
+import HeaderS from './components/headerS'
+import LandingS from './components/landingS'
+import ExperienceS from './components/experienceS'
+import ProjectsS from './components/projectsS'
+import AboutMeS from './components/aboutMeS'
 
-class App extends Component {
-  componentDidMount() {
-    store.dispatch(loadUser())
-  }
 
-  render() {
-    return (
-      <Provider store={store}>
-        <Router>
-          <div className="body" >
-            <AppNavbar />
-            <Container>
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/ExerciseList' component={ExerciseList} />
-                <Route exact path='/Selections' component={Selections} />
-                <Route exact path='/SmartWorkout' component={SmartWorkout} />
-                <Route exact path='/SmartExerciseList' component={SmartExerciseList} />
-              </Switch>
-            </Container>
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
+
+function App() {
+
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return (
+    <Fragment>
+      {/* <Fragment>
+        <Header />
+        <Landing />
+        <Experience />
+        <Projects />
+        <AboutMe />
+      </Fragment> */}
+      {console.log("WIDTH", windowDimensions.width)}
+      {(windowDimensions.width > 1250) ? (
+        <Fragment>
+          <Header />
+          <Landing />
+          <Experience />
+          <Projects />
+          <AboutMe />
+        </Fragment>
+      ) : (
+          <div>
+            <HeaderS />
+            <LandingS />
+            <ExperienceS />
+            <ProjectsS />
+            <AboutMeS />
           </div>
-        </Router>
-      </Provider >
-    );
-  }
+        )}
+    </Fragment>
+  );
 }
 
 export default App;

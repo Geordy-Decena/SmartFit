@@ -1,0 +1,1165 @@
+.projects {
+    position: absolute;
+    height: 1500px;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    top: 2000px !important;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+/* .smoothTrans2{
+    position: absolute;
+    top: 2000px !important;
+    width: 100%;
+    height: 150px;
+    z-index: 100000;
+    background: linear-gradient(#ffffff00 0% ,#ffffff 30%, white 70%, rgba(255, 255, 255, 0.5) 80%, #ffffff00 100%) !important;
+} */
+
+.lightWave2{
+    position: absolute;
+    margin-top: 0vh;
+    top: -950px;
+    z-index: -100000000;
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.projContent {
+    position: relative;
+    max-width: 1200px !important;
+    min-width: 1200px !important;
+    height: 1500px;
+    z-index: 100;
+    top: 0vh !important;
+    margin: auto;
+}
+
+.projDiv{
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 1500px;
+    top: 0vh;
+    margin: auto;
+}
+
+.projTitle {
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    text-shadow: 2px 3px 3px black;
+    display: inline-block;
+    top: 1700px;
+    margin-top: 50px;
+    z-index: 1000 !important;
+    color: white;
+}
+
+.projTitle2{
+    position: absolute;
+    max-width: 40%;
+    min-width: 40%;
+    margin-left: 30%;
+    height: 200px;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    display: inline-block;
+    top: 1700px;
+    margin-top: 50px;
+    z-index: 1000000 !important;
+}
+
+.projTitle div{
+    display: block;
+}
+
+.sportsContainer {
+    position: absolute;
+    left: 0px;
+    width: 48% !important;
+    height: 400px !important;
+    top: -80px !important;
+}
+
+.sportsDecoy {
+    position: absolute;
+    z-index: 10000;
+    transform: translateY(0px);
+    opacity: 0;
+    left: 0px;
+    position: absolute;
+    width: 48% !important;
+    height: 400px !important;
+    right: 0px;
+    top: -80px;
+}
+
+.sportsDecoy-entering {
+    animation: sportsDecoy;
+    animation-duration: 1s;
+}
+
+@keyframes sportsDecoy {
+    0% {transform: scale(1.05) translateY(0px); opacity: 0;}
+    50% {transform: scale(1.05) translateY(0); opacity: 1;}
+    100% {transform: scale(1) translateY(0); opacity: 1;}
+}
+
+.overView{
+    position: absolute;
+    min-height: 100%;
+    object-fit: fill;
+}
+
+.deltaVid{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    top: 20px;
+}
+
+.changeContainer {
+    position: absolute;
+    right: 0px;
+    width: 48% !important;
+    height: 400px !important;
+    top: -80px !important;
+}
+
+.changeDecoy {
+    position: absolute;
+    z-index: 10000;
+    transform: translateY(0px);
+    opacity: 0;
+    position: absolute;
+    width: 48% !important;
+    height: 400px !important;
+    right: 0px;
+    top: -80px;
+}
+
+.changeDecoy-entering {
+    animation: changeDecoy;
+    animation-duration: 1s;
+}
+
+@keyframes changeDecoy {
+    0% {transform: scale(1.05) translateY(0px); opacity: 0;}
+    50% {transform: scale(1.05) translateY(0); opacity: 1;}
+    100% {transform: scale(1) translateY(0); opacity: 1;}
+}
+
+
+.devContainer {
+    position: absolute;
+    left: 0px;
+    width: 48% !important;
+    height: 400px !important;
+    top: 400px;
+}
+
+.devDecoy {
+    position: absolute;
+    z-index: 10000;
+    margin-top: 0px;
+    transform: translateY(0px);
+    opacity: 0;
+    position: absolute;
+    width: 48% !important;
+    height: 400px !important;
+    top: 400px;
+}
+
+.devDecoy-entering {
+    animation: devDecoy;
+    animation-duration: 1s;
+}
+
+@keyframes devDecoy {
+    0% {transform: scale(1.05) translateY(0px); opacity: 0;}
+    50% {transform: scale(1.05) translateY(0); opacity: 1;}
+    100% {transform: scale(1) translateY(0); opacity: 1;}
+}
+
+.devAni-entering {
+    animation: devAni;
+    animation-duration: 1s;
+}
+
+@keyframes devAni {
+    0% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+.devSocial {
+    position: absolute;
+    top: 0px !important;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(180deg);
+}
+
+.smartLogo{
+    position: absolute;
+    z-index: -1000;
+    margin: -150px 0px 0 5px;
+    opacity: 0.1;
+    transform: scale(0.6);
+}
+
+.devLogo {
+    position: absolute;
+    z-index: -1000;
+    margin: -130px 0px 0 40px;
+    opacity: 0.1;
+    transform: scale(0.6);
+}
+
+.devSocialFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    background: white;
+    box-shadow: 2px 3px 3px black;
+}
+
+.devSocialFront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    background-color: white;
+    box-shadow: 2px 3px 3px black;
+}
+
+.devSocialBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
+    box-shadow: 2px 3px 3px black;
+}
+
+.devSocialBack2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
+    box-shadow: 2px 3px 3px black;
+}
+
+
+.devSocial-entering {
+    animation: flip;
+    animation-duration: 1s;
+}
+
+@keyframes flip{
+    0% {transform: scale(1) rotateY(0deg); box-shadow: 0px 0px 10px black;}
+    30% {transform: scale(1.05); box-shadow: 0px 0px 20px black;}
+    70% {transform: scale(1.05) rotateY(180deg); box-shadow: 0px 0px 20px black;}
+    100% {transform: scale(1) rotateY(180deg);; box-shadow: 0px 0px 0px black;}
+}
+
+.devSocialBack h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialBack h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialBack h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialBack h4{
+    position: absolute;
+    margin: -130px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialBack h5{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    display: inline-block;
+    margin: -126px 0px 0px 108px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    width: 420px;
+}
+
+.devSocialBack h6{
+    position: absolute;
+    margin: -60px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialBack p{
+    position: absolute;
+    margin: -55px 0px 0px 110px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialFront2 h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialFront2 h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialFront2 h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialFront2 h4{
+    position: absolute;
+    margin: -130px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialFront2 h5{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    display: inline-block;
+    width: 420px;
+    margin: -126px 0px 0px 108px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.devSocialFront2 h6{
+    position: absolute;
+    margin: -60px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.devSocialFront2 p{
+    position: absolute;
+    margin: -55px 0px 0px 110px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.smartContainer {
+    position: absolute;
+    right: 0px;
+    width: 48% !important;
+    height: 400px !important;
+    top: 400px !important;
+}
+
+.smartFit {
+    position: absolute;
+    top: 0px !important;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(180deg);
+}
+
+.smartfitLogo {
+    position: absolute;
+    margin: -40px 200px 50px 120px;
+    transform: scale(1);
+    z-index: -1000;
+    opacity: 0.3;
+}
+
+.smartDecoy {
+    position: absolute;
+    z-index: 10000;
+    right: 0px;
+    top: 400px !important;
+    width: 48% !important;
+    height: 400px !important;
+    transform: translateY(0px);
+    opacity: 0;
+}
+
+.smartDecoy-entering {
+    animation: smartDecoy;
+    animation-duration: 1s;
+}
+
+@keyframes smartDecoy {
+    0% {transform: scale(1.05) translateY(0px); opacity: 0;}
+    50% {transform: scale(1.05) translateY(0); opacity: 1;}
+    100% {transform: scale(1) translateY(0); opacity: 1;}
+}
+
+.smartAni-entering {
+    animation: smartAni;
+    animation-duration: 1s;
+}
+
+@keyframes smartAni {
+    0% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.smartFitFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.smartFitFront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    background: linear-gradient(90deg,#000000 20% ,#3f3f17 50%, #000000 80%) !important;
+    box-shadow: 0px 0px 10px black;
+}
+
+.smartFitBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg,#000000 20% ,#3f3f17 50%, #000000 80%) !important;
+    box-shadow: 0px 0px 10px black;
+}
+
+.smartFitBack2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.smartFit-entering {
+    animation: flip;
+    animation-duration: 1s;
+}
+
+@keyframes flip{
+    0% {transform: scale(1) rotateY(0deg); box-shadow: 0px 0px 10px black;}
+    30% {transform: scale(1.05); box-shadow: 0px 0px 20px black;}
+    70% {transform: scale(1.05) rotateY(180deg); box-shadow: 0px 0px 20px black;}
+    100% {transform: scale(1) rotateY(180deg);; box-shadow: 0px 0px 0px black;}
+}
+
+.smartFitBack h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+
+.smartFitBack h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.smartFitBack h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.smartFitBack h4{
+    margin: 0px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.smartFitBack h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.smartFitBack h6{
+    margin: 0px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.smartFitBack p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.smartFitFront2 h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+
+.smartFitFront2 h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.smartFitFront2 h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.smartFitFront2 h4{
+    margin: 0px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.smartFitFront2 h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.smartFitFront2 h6{
+    margin: 0px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.smartFitFront2 p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.findContainer {
+    position: absolute;
+    top: 880px;
+    width: 48% !important;
+    height: 400px !important;
+}
+
+.findMyFam {
+    position: absolute;
+    top: 0px !important;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(180deg);
+}
+
+.famLogo {
+    position: absolute;
+    z-index: -1000;
+    margin: -80px 0 0 0;
+    transform: scale(0.9);
+    opacity: 0.2;
+}
+
+.findDecoy {
+    position: absolute;
+    z-index: 10000;
+    top: 880px;
+    width: 48% !important;
+    height: 400px !important;
+    transform: translateY(0px);
+    opacity: 0;
+}
+
+.findDecoy-entering {
+    animation: findDecoy;
+    animation-duration: 1s;
+}
+
+@keyframes findDecoy {
+    0% {transform: scale(1.05) translateY(0px); opacity: 0;}
+    50% {transform: scale(1.05) translateY(0); opacity: 1;}
+    100% {transform: scale(1) translateY(0); opacity: 1;}
+}
+
+.findAni-entering {
+    animation: findAni;
+    animation-duration: 1s;
+}
+
+@keyframes findAni {
+    0% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.findMyFamFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.findMyFamFront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    background: linear-gradient(90deg,#000000 20% ,#5a1d72 50%, #000000 80%) !important;
+    box-shadow: 0px 0px 10px black;
+}
+
+.findMyFamBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg,#000000 20% ,#5a1d72 50%, #000000 80%) !important;
+    box-shadow: 0px 0px 10px black;
+}
+
+.findMyFamBack2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.findMyFam-entering {
+    animation: flip;
+    animation-duration: 1s;
+}
+
+@keyframes flip{
+    0% {transform: scale(1) rotateY(0deg); box-shadow: 0px 0px 10px black;}
+    30% {transform: scale(1.05); box-shadow: 0px 0px 20px black;}
+    70% {transform: scale(1.05) rotateY(180deg); box-shadow: 0px 0px 20px black;}
+    100% {transform: scale(1) rotateY(180deg);; box-shadow: 0px 0px 0px black;}
+}
+
+.findMyFamBack h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+
+.findMyFamBack h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.findMyFamBack h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.findMyFamBack h4{
+    margin: 0px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.findMyFamBack h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.findMyFamBack h6{
+    margin: 0px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.findMyFamBack p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.findMyFamFront2 h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+
+.findMyFamFront2 h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.findMyFamFront2 h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.findMyFamFront2 h4{
+    margin: 0px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.findMyFamFront2 h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.findMyFamFront2 h6{
+    margin: 0px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.findMyFamFront2 p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.castleContainer {
+    position: absolute;
+    top: 880px;
+    width: 48% !important;
+    height: 400px !important;
+    right: 0px;
+}
+
+.castleDefense {
+    position: absolute;
+    top: 0px !important;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(180deg);
+}
+
+.castleLogo{
+    position: absolute;
+    transform: scale(0.7);
+    margin: -70px 0px 0px 120px;
+    z-index: -1000;
+    opacity: 0.3;
+}
+
+.castleDecoy {
+    position: absolute;
+    z-index: 10000;
+    right: 0px;
+    top: 880px;
+    width: 48% !important;
+    height: 400px !important;
+    transform: translateY(0px);
+    opacity: 0;
+}
+
+.castleDecoy-entering {
+    animation: castleDecoy;
+    animation-duration: 1s;
+}
+
+@keyframes castleDecoy {
+    0% {transform: scale(1.05) translateY(0px); opacity: 0;}
+    50% {transform: scale(1.05) translateY(0); opacity: 1;}
+    100% {transform: scale(1) translateY(0); opacity: 1;}
+}
+
+.castleAni-entering {
+    animation: castleAni;
+    animation-duration: 1s;
+}
+
+@keyframes castleAni {
+    0% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.castleDefenseFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.castleDefenseFront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    background: linear-gradient(90deg,#000000 20% ,rgb(85, 72, 0)50%, #000000 80%) !important;
+    box-shadow: 0px 0px 10px black;
+}
+
+.castleDefenseBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg,#000000 20% ,rgb(85, 72, 0)50%, #000000 80%) !important;
+    box-shadow: 0px 0px 10px black;
+}
+
+.castleDefenseBack2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.castleDefense-entering {
+    animation: flip;
+    animation-duration: 1s;
+}
+
+@keyframes flip{
+    0% {transform: scale(1) rotateY(0deg); box-shadow: 0px 0px 10px black;}
+    30% {transform: scale(1.05); box-shadow: 0px 0px 20px black;}
+    70% {transform: scale(1.05) rotateY(180deg); box-shadow: 0px 0px 20px black;}
+    100% {transform: scale(1) rotateY(180deg);; box-shadow: 0px 0px 0px black;}
+}
+
+.castleDefenseBack h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+
+.castleDefenseBack h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.castleDefenseBack h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.castleDefenseBack h4{
+    margin: 0px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.castleDefenseBack h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.castleDefenseBack h6{
+    margin: 0px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.castleDefenseBack p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.castleDefenseFront2 h1{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+
+.castleDefenseFront2 h2{
+    margin: 20px 30px 150px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.castleDefenseFront2 h3{
+    margin: 10px 30px 20px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.castleDefenseFront2 h4{
+    margin: 0px 30px 20px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.castleDefenseFront2 h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.castleDefenseFront2 h6{
+    margin: 0px 30px 30px 30px;
+    font-size: 25px;
+    color:rgb(255, 0, 0);
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.castleDefenseFront2 p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    display: inline-block;
+}

@@ -1,0 +1,43 @@
+.menu {
+    position: fixed;
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100%;
+    min-height: 100%;
+    z-index: 10000!;
+    bottom: 0px !important;
+    box-shadow: 5px 0px 10px black;
+    background-color: #18303d;
+}
+
+.exp{
+    position: relative;
+    top: 220px !important;  
+    text-align: center;
+    font-size: 40px;
+    color: #84a9ac;
+}
+
+.prj{
+    position: relative;
+    top: 260px !important;
+    text-align: center;
+    font-size: 40px;
+    color: #84a9ac;
+}
+
+.bio{
+    position: relative;
+    top: 300px !important;
+    text-align: center;
+    font-size: 40px;
+    color: #84a9ac;
+}
+
+.cv{
+    position: relative;
+    top: 340px !important;
+    text-align: center;
+    font-size: 40px;
+    color: #84a9ac;
+}

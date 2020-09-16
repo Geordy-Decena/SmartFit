@@ -1,0 +1,462 @@
+input, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    color: white;
+}
+
+.S-aboutMeContainer {
+    position: absolute;
+    min-height: 1550px;
+    width: 100%;
+    z-index: 1000000;
+    overflow: hidden;
+    top: 3000px;
+    margin-top: 1800px;
+}
+
+.S-space4 {
+    width: 100vw;
+    min-height: 1100px;
+    filter: brightness(20%);
+    opacity: 0.2;
+}
+
+.S-aboutOuterLanding {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0px !important;
+    margin: 0px !important;
+    z-index: 0;
+}
+
+.S-aboutSpacer {
+    position: relative;
+    width: 100vw;
+    min-height: 50%;
+    max-height: 50%;
+    float: right;
+}
+
+.S-aboutLandingDiv {
+    position: absolute;
+    min-height: 50%;
+    max-height: 50%;
+    z-index: 100 !important;
+    display: inline-block !important;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.S-aboutLanding2 {
+    position: absolute;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50%;
+    max-height: 50%;
+    background: none;
+    bottom: 0;
+}
+
+.S-profileImg {
+    position: relative;
+    background-color: white;
+    border-radius: 200px;
+    width: 150px !important;
+    height: 150px !important;
+    margin: auto;
+    top: 105px;
+    box-shadow: 2px 3px 3px black;
+}
+
+.S-pfp{
+    position: relative;
+    background-color: white;
+    border-radius: 200px;
+    width: 400px !important;
+    height: 150px !important;
+    left: 0px;
+}
+
+.S-aboutMeTitleDiv{
+    position: absolute;
+    width: 100%;
+}
+
+.S-aboutMeTitle {
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 3px 3px black;
+    color: black;
+    top: 0px;
+}
+
+.S-aboutMeTitle2 {
+    position: relative;
+    max-width: 400px;
+    min-width: 400px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -100px;
+    z-index: 1000000 !important;
+}
+
+.S-aboutMeBio h1{
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    top: 130px;
+    width: 450px;
+    margin: auto;
+    line-height: 30px;
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.S-contactTitleDiv{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+
+.S-contactTitle{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 3px 3px black;
+    color: black;
+    top: 550px;
+    z-index: 100000;
+}
+
+.S-contactTitle2{
+    position: relative;
+    max-width: 300px;
+    min-width: 300px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 450px;
+    z-index: 1000000 !important;
+}
+
+.S-contactForm {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    top: 720px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10000;
+}
+
+.S-formGroupName {
+    position: relative;
+    padding: 0px 0px 0px 0px; 
+    margin: auto;
+    width: 400px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.S-nameLabel {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.S-nameInput {
+    font-size: 18px;
+    padding: 2px;
+    margin-left: 20px;
+    border-radius: 5px;
+    z-index: 10000;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 250px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.S-formGroupEmail {
+    position: relative;
+    padding: 0px 0px 0px 0px; 
+    margin: auto;
+    padding-top: 30px;
+    width: 400px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.S-emailLabel {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.S-emailInput {
+    font-size: 18px;
+    padding: 2px;
+    margin-left: 20px;
+    border-radius: 5px;
+    z-index: 10000;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 250px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.S-formGroupSubject {
+    position: relative;
+    padding: 0px 0px 0px 0px; 
+    margin: auto;
+    padding-top: 30px;
+    width: 400px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    z-index: 10000000000000;
+}
+
+.S-subjectLabel {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.S-subjectInput {
+    font-size: 18px;
+    padding: 2px;
+    margin-left: 20px;
+    border-radius: 5px;
+    z-index: 10000;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 250px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.S-formGroupMessage {
+    position: relative;
+    padding: 0px 0px 0px 0px; 
+    margin: auto;
+    padding-top: 30px;
+    width: 400px;
+    text-align: center;
+    z-index: 10000000000000;
+}
+
+.S-messageLabel {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 160px !important;
+    left: -5px;
+}
+
+.S-messageInput {
+    position: absolute;
+    font-size: 18px;
+    padding: 3px;
+    right: 0px;
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.S-submitDiv{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.S-submit {
+    position: relative;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 1000000;
+    color: white;
+    box-shadow: 2px 3px 3px black;
+    background-color: black;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    font-weight: bold;
+    top: 240px;
+}
+
+.S-resume {
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 350px;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.S-resumeDownload{
+    position: relative;
+    font-size: 20px;
+    color: blue;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 200px;
+    text-align: center;
+    top: 370px;
+    margin: auto;
+}
+
+.S-submitAniDiv {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.S-submitAni {
+    position: relative;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 1000000;
+    color: white;
+    box-shadow: 2px 3px 3px black;
+    background-color: black;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
+    background: linear-gradient(to right, #7b4397, #dc2430); 
+    font-weight: bold;
+    top: 195px;
+}
+
+.S-submitAni-entering {
+    animation: submitAni;
+    animation-duration: 3s;
+}
+
+@keyframes submitAni {
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(130px);}
+    100%{transform: translateX(0px);}
+}
+
+
+.S-sent {
+    position: relative;
+    top: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    background: -webkit-linear-gradient(to right, #b260db, #ff1929);
+    background: linear-gradient(to right, #cf6eff, #ff1929); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    z-index: 10000;
+    margin-left: -30px;
+}
+
+.S-sent {
+    animation: sent;
+    animation-duration: 2.8s;
+}
+
+@keyframes sent {
+    0%{opacity: 0}
+    10%{opacity: 0}
+    55%{opacity: 1}
+    100%{opacity: 0}
+}
+
+.S-footer {
+    padding-top: 10px;
+    position: absolute;
+    max-width: 60%;
+    min-width: 60%;
+    height: 10px;
+    z-index: 10000 !important;
+    background: none !important;
+    right: 0px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-top: 200px;
+}
+
+.S-footer h1{
+    position: absolute;
+    display: inline-block;
+    right: 615px !important;
+    font-size: 25px;
+    top: -10px;
+    padding: 20px 10px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.S-footer h1:hover{
+    transform: scale(1.05);
+}
+
+
+.S-footer h2{
+    position: absolute;
+    display: inline-block;
+    right: 450px !important;
+    font-size: 25px;
+    top: -10px;
+    padding: 20px 10px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.S-footer h2:hover{
+    transform: scale(1.05);
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.S-copyright{
+    position: absolute;
+    color:rgb(172, 172, 172);
+    bottom: 10px !important;
+    width: 100vw;
+    text-align: center;
+    font-size: 15px;
+}

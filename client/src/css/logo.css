@@ -1,0 +1,11 @@
+.logo {
+    /* position: fixed; */
+    max-width: 130px;
+    min-width: 130px;
+    max-height: 130px;
+    min-height: 130px;
+    z-index: 10001 !important;
+    background-color: #18303d;
+    /* box-shadow: 5px 5px 10px black; */
+    top: 0px !important
+}
