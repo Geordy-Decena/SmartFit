@@ -109,7 +109,7 @@
 .alertDemoDiv{
     position: fixed;
     top: 0px;
-    z-index: 1000000000;
+    z-index: 999999999999999999999;
     color: white;
     top: 0px;
     width: 100%;
@@ -132,8 +132,8 @@
 .alertDemoShadow{
     position: relative;
     top: 0px;
-    z-index: 999999999999999999;
-    background: transparent; 
+    z-index: 99;
+    background: white; 
     box-shadow: 2px 2px 2px black;
     width: 400px;
     height: 40px;
@@ -145,7 +145,7 @@
 .alertDemo{
     position: relative;
     top: 0px;
-    z-index: 999999999999999999;
+    z-index: 9999;
     background: white; 
     background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
     background: linear-gradient(to right, #7b4397, #dc2430); 

@@ -48,9 +48,10 @@
 }
 
 .S-projTitle {
-    position: absolute;
-    max-width: 100%;
-    min-width: 100%;
+    position: relative;
+    margin: auto;
+    max-width: 300px;
+    min-width: 300px;
     height: 100px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,8 +63,10 @@
 
 .S-projTitle2{
     position: relative;
+    margin: auto;
     max-width: 300px;
     min-width: 300px;
+    top: -100px;
     height: 100px;
     color: blue;
     background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
@@ -84,7 +87,8 @@
 .S-sportsContainer {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -120px !important;
 }
@@ -97,7 +101,8 @@
     opacity: 0;
     left: 0px;
     position: absolute;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     right: 0px;
     top: -120px;
@@ -118,7 +123,8 @@
 .S-changeContainer {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -380px;
 }
@@ -129,7 +135,8 @@
     z-index: 10000;
     transform: translateY(0px);
     opacity: 0;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -80px;
 }
@@ -149,7 +156,8 @@
 .S-devContainer {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -640px;
 }
@@ -402,7 +410,8 @@
 .S-smartContainer {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -900px;
 }
@@ -432,7 +441,8 @@
     z-index: 10000;
     right: 0px;
     top: -600px !important;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     transform: translateY(0px);
     opacity: 0;
@@ -644,7 +654,8 @@
 .S-findContainer {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -1160px;
 }
@@ -678,7 +689,8 @@
 .S-findDecoy {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     z-index: 10000;
     top: -860px;
@@ -892,7 +904,8 @@
 .S-castleContainer {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     top: -1420px;
 }
@@ -919,7 +932,8 @@
 .S-castleDecoy {
     position: relative;
     margin: auto;
-    width: 450px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
     height: 300px !important;
     z-index: 10000;
     right: 0px;
