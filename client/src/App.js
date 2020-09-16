@@ -37,28 +37,27 @@ function App() {
 
   return (
     <Fragment>
-
-      <Transition
-        timeout={6000}
-        in={true}
-        appear
-      >{(status) => (
-        <div className={`loading loading-${status}`}>
-          <div className={`loadingModal loadingModal-${status}`}></div>
-          <div className="loadingLogoDiv">
-            <div className={`loadingLogo loadingLogo-${status}`}> <img alt="desc" src={Logo} className={`loadingLogoImg loadingLogoImg-${status}`}></img></div>
-          </div>
-          <div className="loadingDotDiv">
-            <div className={`loadingDot1 loadingDot1-${status}`}></div>
-            <div className={`loadingDot2 loadingDot2-${status}`}></div>
-            <div className={`loadingDot3 loadingDot3-${status}`}></div>
-          </div>
-        </div>
-      )}
-      </Transition>
       {console.log("WIDTH", windowDimensions.width)}
       {(windowDimensions.width > 1250) ? (
         <Fragment>
+          <Transition
+            timeout={6000}
+            in={true}
+            appear
+          >{(status) => (
+            <div className={`loading loading-${status}`}>
+              <div className={`loadingModal loadingModal-${status}`}></div>
+              <div className="loadingLogoDiv">
+                <div className={`loadingLogo loadingLogo-${status}`}> <img alt="desc" src={Logo} className={`loadingLogoImg loadingLogoImg-${status}`}></img></div>
+              </div>
+              <div className="loadingDotDiv">
+                <div className={`loadingDot1 loadingDot1-${status}`}></div>
+                <div className={`loadingDot2 loadingDot2-${status}`}></div>
+                <div className={`loadingDot3 loadingDot3-${status}`}></div>
+              </div>
+            </div>
+          )}
+          </Transition>
           <Header />
           <Landing />
           <Experience />
@@ -67,6 +66,24 @@ function App() {
         </Fragment>
       ) : (
           <div>
+            <Transition
+              timeout={6000}
+              in={true}
+              appear
+            >{(status) => (
+              <div className={`loading loading-${status}`}>
+                <div className={`loadingModal loadingModal-${status}`}></div>
+                <div className="loadingLogoDiv">
+                  <div className={`loadingLogo loadingLogo-${status}`}> <img alt="desc" src={Logo} className={`loadingLogoImg loadingLogoImg-${status}`}></img></div>
+                </div>
+                <div className="loadingDotDiv">
+                  <div className={`loadingDot1 loadingDot1-${status}`}></div>
+                  <div className={`loadingDot2 loadingDot2-${status}`}></div>
+                  <div className={`loadingDot3 loadingDot3-${status}`}></div>
+                </div>
+              </div>
+            )}
+            </Transition>
             <HeaderS />
             <LandingS />
             <ExperienceS />
@@ -74,6 +91,7 @@ function App() {
             <AboutMeS />
           </div>
         )}
+
     </Fragment>
   );
 }
