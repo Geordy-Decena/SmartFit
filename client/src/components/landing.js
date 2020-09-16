@@ -102,24 +102,6 @@ function Landing() {
 
     return (
         <Fragment>
-            <Transition
-                timeout={6000}
-                in={true}
-                appear
-            >{(status) => (
-                <div className={`loading loading-${status}`}>
-                    <div className={`loadingModal loadingModal-${status}`}></div>
-                    <div className="loadingLogoDiv">
-                        <div className={`loadingLogo loadingLogo-${status}`}> <img alt="desc" src={Logo} className={`loadingLogoImg loadingLogoImg-${status}`}></img></div>
-                    </div>
-                    <div className="loadingDotDiv">
-                        <div className={`loadingDot1 loadingDot1-${status}`}></div>
-                        <div className={`loadingDot2 loadingDot2-${status}`}></div>
-                        <div className={`loadingDot3 loadingDot3-${status}`}></div>
-                    </div>
-                </div>
-            )}
-            </Transition>
             <div className="color"></div>
             <div className="expBG"></div>
             <div className="coffee"></div>
@@ -147,7 +129,6 @@ function Landing() {
                     <Fragment>
                         <div className={`alertDemoDiv alertDemoDiv-${status}`}>
                             <div className="alertDemoShadow">
-                                <h1>Click on the boxes to see a demo!</h1>
                             </div>
                             <div className="alertDemo">
                                 <h1>Click on the boxes to see a demo!</h1>

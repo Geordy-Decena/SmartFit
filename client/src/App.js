@@ -10,6 +10,8 @@ import LandingS from './components/landingS'
 import ExperienceS from './components/experienceS'
 import ProjectsS from './components/projectsS'
 import AboutMeS from './components/aboutMeS'
+import { Transition } from 'react-transition-group'
+import Logo from './images/logo.png'
 
 
 function getWindowDimensions() {
@@ -35,13 +37,25 @@ function App() {
 
   return (
     <Fragment>
-      {/* <Fragment>
-        <Header />
-        <Landing />
-        <Experience />
-        <Projects />
-        <AboutMe />
-      </Fragment> */}
+
+      <Transition
+        timeout={6000}
+        in={true}
+        appear
+      >{(status) => (
+        <div className={`loading loading-${status}`}>
+          <div className={`loadingModal loadingModal-${status}`}></div>
+          <div className="loadingLogoDiv">
+            <div className={`loadingLogo loadingLogo-${status}`}> <img alt="desc" src={Logo} className={`loadingLogoImg loadingLogoImg-${status}`}></img></div>
+          </div>
+          <div className="loadingDotDiv">
+            <div className={`loadingDot1 loadingDot1-${status}`}></div>
+            <div className={`loadingDot2 loadingDot2-${status}`}></div>
+            <div className={`loadingDot3 loadingDot3-${status}`}></div>
+          </div>
+        </div>
+      )}
+      </Transition>
       {console.log("WIDTH", windowDimensions.width)}
       {(windowDimensions.width > 1250) ? (
         <Fragment>

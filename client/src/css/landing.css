@@ -9,183 +9,6 @@
     z-index: 1000;
 }
 
-.loading{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 1000000000000000000000000000000000000000000000000;
-    opacity: 0;
-    transform: translateY(-10000000000px);
-}
-
-.loading-entering{
-    animation: loading;
-    animation-duration: 6s;
-}
-
-@keyframes loading{
-    0%{transform: translateY(0px); opacity: 1;}
-    100%{transform: translateY(0px); opacity: 1;}
-}
-
-.loadingModal{
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    z-index: 10000000000000000000000000000000000000000000000;
-}
-
-.loadingModal-entering{
-    animation: loadingModal;
-    animation-duration: 6s;
-}
-
-@keyframes loadingModal{
-    0%{opacity: 1;}
-    80%{opacity: 1;}
-    100%{opacity: 0;}
-}
-
-.loadingLogoDiv{
-    position: absolute;
-    width: 100%;
-    z-index: 10000000000000000000000000000000000000000000000;
-}
-
-.loadingLogo{
-    position: relative;
-    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
-    background: linear-gradient(to right, #7b4397, #dc2430); 
-	display: block;
-	margin: auto;
-    width: 110px;
-    height: 130px;
-    top: 180px;
-    transform: scale(1.5);
-    z-index: 1000000000000000000000000000000000000000000000000;
-}
-
-.loadingLogo-entering{
-    animation: loadingLogo;
-    animation-duration: 6s;
-}
-
-@keyframes loadingLogo{
-    0%{opacity: 0;}
-    30%{opacity: 1;}
-    60%{opacity: 1;}
-    90%{opacity: 0;}
-    100%{opacity: 0;}
-}
-
-.loadingDotDiv{
-    position: relative;;
-    width: 122px;
-    margin: auto;
-    top: 360px;
-    z-index: 1000000000000000000000000000000000000000000000000;
-}
-
-.loadingDot1{
-    position: relative;
-    box-shadow: 2px 2px 2px;
-    border-radius: 500px;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-    top: 0px;
-    display: inline-block;
-    z-index: 1000000000000000000000000000000000000000000000000;
-}
-
-.loadingDot1-entering{
-    animation: dot1;
-    animation-duration: 6s;
-}
-
-@keyframes dot1{
-    0%{opacity: 0;}
-    10%{opacity: 1;}
-    20%{opacity: 0;}
-    30%{opacity: 0;}
-    40%{opacity: 1;}
-    50%{opacity: 0;}
-    60%{opacity: 0;}
-    70%{opacity: 1;}
-    80%{opacity: 0;}
-    90%{opacity: 0;}
-    100%{opacity: 0;}
-}
-
-.loadingDot2{
-    position: relative;
-    box-shadow: 2px 2px 2px;
-    border-radius: 500px;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-    top: 0px;
-    display: inline-block;
-    z-index: 1000000000000000000000000000000000000000000000000;
-}
-
-.loadingDot2-entering{
-    animation: dot2;
-    animation-duration: 6s;
-}
-
-@keyframes dot2{
-    0%{opacity: 0;}
-    10%{opacity: 0;}
-    20%{opacity: 1;}
-    30%{opacity: 0;}
-    40%{opacity: 0;}
-    50%{opacity: 1;}
-    60%{opacity: 0;}
-    70%{opacity: 0;}
-    80%{opacity: 0;}
-    90%{opacity: 0;}
-    100%{opacity: 0;}
-}
-
-.loadingDot3{
-    position: relative;
-    box-shadow: 2px 2px 2px;
-    border-radius: 500px;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-    top: 0px;
-    display: inline-block;
-    z-index: 1000000000000000000000000000000000000000000000000;
-}
-
-.loadingDot3-entering{
-    animation: dot3;
-    animation-duration: 6s;
-}
-
-@keyframes dot3{
-    0%{opacity: 0;}
-    10%{opacity: 0;}
-    20%{opacity: 0;}
-    30%{opacity: 1;}
-    40%{opacity: 0;}
-    50%{opacity: 0;}
-    60%{opacity: 1;}
-    70%{opacity: 0;}
-    80%{opacity: 0;}
-    90%{opacity: 0;}
-    100%{opacity: 0;}
-}
-
-.loadingLogoImg{
-    position: fixed;
-    width: 130px;
-    height: 130px;
-}
-
 /* .color {
     position: absolute;
     top: 20%;
@@ -311,7 +134,7 @@
     background: black; 
     box-shadow: 2px 2px 2px black;
     width: 400px;
-    height: 70px;
+    height: 40px;
     top: 0px;
     padding: 10px;
     margin: auto;
@@ -321,12 +144,11 @@
     position: relative;
     top: 0px;
     z-index: 100000000000000000000000;
-    background: linear-gradient(to right, #7b4397, #dc2430); 
-
-    color: white;
-    top: -90px;
+    background: white; 
+    color: rgba(0, 0, 0, 0.7);
+    top: -60px;
     width: 400px;
-    height: 70px;
+    height: 40px;
     text-align: center;
     padding: 10px;
     margin: auto;
@@ -336,7 +158,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     margin-left: 0px;
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 

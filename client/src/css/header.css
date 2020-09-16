@@ -191,7 +191,7 @@
 .bigHeader{
     position: fixed;
     top: 0px;
-    z-index: 1000000000;
+    z-index: 10000000000;
     right: 0px;
     width: 100vw;
     height: 500px;
@@ -218,7 +218,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.9);
-    z-index: 100000000;
+    z-index: 1000000000;
 }
 
 .modal-entering{
@@ -234,7 +234,7 @@
 .bigHeader h1{
     margin: 70px 5px 0px 5px;
     display: inline-block;
-    z-index: 1000000000;
+    z-index: 10000000000;
     font-size: 50px;
     transform: rotate(-20deg);
     transition: all 0.3s ease-in-out;
@@ -252,7 +252,7 @@
 .bigHeader h2{
     margin: 50px 5px 0px 5px;
     display: inline-block;
-    z-index: 1000000000;
+    z-index: 10000000000;
     font-size: 50px;
     transform: rotate(-20deg);
     transition: all 0.3s ease-in-out;
@@ -270,7 +270,7 @@
 .bigHeader h3{
     margin: 50px 5px 0px 5px;
     display: inline-block;
-    z-index: 1000000000;
+    z-index: 10000000000;
     font-size: 50px;
     transform: rotate(-20deg);
     transition: all 0.3s ease-in-out;
@@ -288,7 +288,7 @@
 .bigHeader h4{
     margin: 50px 5px 0px 5px;
     display: inline-block;
-    z-index: 1000000000;
+    z-index: 10000000000;
     font-size: 50px;
     transform: rotate(-20deg);
     transition: all 0.3s ease-in-out;
@@ -306,7 +306,7 @@
 .bigHeader h5{
     margin: 50px 5px 0px 5px;
     display: inline-block;
-    z-index: 1000000000;
+    z-index: 10000000000;
     font-size: 50px;
     transform: rotate(-20deg);
     transition: all 0.3s ease-in-out;
@@ -324,7 +324,7 @@
 ._bigHeader{
     position: fixed;
     top: 0px;
-    z-index: 1000000000;
+    z-index: 10000000000;
     right: 0px;
     width: 100vw;
     height: 300px;
