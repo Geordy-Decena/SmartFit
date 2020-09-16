@@ -100,9 +100,6 @@ function LandingS() {
 
     return (
         <Fragment>
-            <div className="S-extendDiv">
-                <div className="S-extend"></div>
-            </div>
             <div className="S-color"></div>
             <div className="S-expBG"></div>
             <div className="S-coffee"></div>

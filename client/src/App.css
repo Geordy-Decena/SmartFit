@@ -15,6 +15,7 @@
 
 .loadingSmallScreen{
     z-index: 999999999999999999;
+    margin-left: 0px;
 }
 
 .loadingSmallScreen-entering{

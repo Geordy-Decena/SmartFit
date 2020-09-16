@@ -74,20 +74,25 @@ function App() {
         )}
         </Transition>
       ) : (
-          <Transition
-            timeout={8000}
-            in={true}
-            appear
-          >{(status) => (
-            <div className={`loadingSmallScreen loadingSmallScreen-${status}`}>
-              <HeaderS />
-              <LandingS />
-              <ExperienceS />
-              <ProjectsS />
-              <AboutMeS />
+          <Fragment>
+            <div className="S-extendDiv">
+              <div className="S-extend"></div>
             </div>
-          )}
-          </Transition>
+            <Transition
+              timeout={8000}
+              in={true}
+              appear
+            >{(status) => (
+              <div className={`loadingSmallScreen loadingSmallScreen-${status}`}>
+                <HeaderS />
+                {/* <LandingS /> */}
+                <ExperienceS />
+                <ProjectsS />
+                <AboutMeS />
+              </div>
+            )}
+            </Transition>
+          </Fragment>
         )}
 
     </Fragment>
