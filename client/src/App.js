@@ -39,7 +39,7 @@ function App() {
     <Fragment>
       {console.log("WIDTH", windowDimensions.width)}
       {(windowDimensions.width > 1250) ? (
-        <Fragment>
+        <div className="loadingLargeScreen">
           <Transition
             timeout={6000}
             in={true}
@@ -58,12 +58,14 @@ function App() {
             </div>
           )}
           </Transition>
-          <Header />
-          <Landing />
-          <Experience />
-          <Projects />
-          <AboutMe />
-        </Fragment>
+          <div>
+            <Header />
+            <Landing />
+            <Experience />
+            <Projects />
+            <AboutMe />
+          </div>
+        </div>
       ) : (
           <div>
             <Transition
