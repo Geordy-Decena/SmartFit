@@ -13,7 +13,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 10000000000000000000000000000000000000000;
+    z-index: 1000000000000000000000000000000000000000000000000;
     opacity: 0;
     transform: translateY(-10000000000px);
 }
@@ -33,7 +33,7 @@
     background-color: white;
     width: 100%;
     height: 100%;
-    z-index: -100000;
+    z-index: 10000000000000000000000000000000000000000000000;
 }
 
 .loadingModal-entering{
@@ -50,11 +50,12 @@
 .loadingLogoDiv{
     position: absolute;
     width: 100%;
-    z-index: 100000;
+    z-index: 10000000000000000000000000000000000000000000000;
 }
 
 .loadingLogo{
     position: relative;
+    background: -webkit-linear-gradient(to right, #7b4397, #dc2430);
     background: linear-gradient(to right, #7b4397, #dc2430); 
 	display: block;
 	margin: auto;
@@ -62,6 +63,7 @@
     height: 130px;
     top: 180px;
     transform: scale(1.5);
+    z-index: 1000000000000000000000000000000000000000000000000;
 }
 
 .loadingLogo-entering{
@@ -82,7 +84,7 @@
     width: 122px;
     margin: auto;
     top: 360px;
-    z-index: 100000;
+    z-index: 1000000000000000000000000000000000000000000000000;
 }
 
 .loadingDot1{
@@ -94,6 +96,7 @@
     margin: 5px;
     top: 0px;
     display: inline-block;
+    z-index: 1000000000000000000000000000000000000000000000000;
 }
 
 .loadingDot1-entering{
@@ -124,6 +127,7 @@
     margin: 5px;
     top: 0px;
     display: inline-block;
+    z-index: 1000000000000000000000000000000000000000000000000;
 }
 
 .loadingDot2-entering{
@@ -154,6 +158,7 @@
     margin: 5px;
     top: 0px;
     display: inline-block;
+    z-index: 1000000000000000000000000000000000000000000000000;
 }
 
 .loadingDot3-entering{
@@ -282,9 +287,9 @@
     z-index: 1000000000;
     color: white;
     top: 0px;
-    width: 400px;
+    width: 100%;
     text-align: center;
-    transform: translateX(-500px) translateY(0px);
+    transform: translateX(0px) translateY(-500px);
 }
 
 .alertDemoDiv-entering{
@@ -293,14 +298,14 @@
 }
 
 @keyframes alertDemo{
-    0%{transform: translateX(-500px) translateY(0px); }
-    30%{transform: translateX(-60px) translateY(0px); }
-    70%{transform: translateX(-60px) translateY(0px); }
-    100%{transform: translateX(-60px) translateY(-300px);}
+    0%{transform: translateX(0px) translateY(-500px)}
+    30%{transform: translateX(0px) translateY(0px); }
+    70%{transform: translateX(0px) translateY(0px); }
+    100%{transform: translateX(0px) translateY(-500px)}
 }
 
 .alertDemoShadow{
-    position: fixed;
+    position: relative;
     top: 0px;
     z-index: 1000000000;
     background: black; 
@@ -309,25 +314,28 @@
     height: 70px;
     top: 0px;
     padding: 10px;
+    margin: auto;
 }
 
 .alertDemo{
-    position: fixed;
+    position: relative;
     top: 0px;
     z-index: 100000000000000000000000;
     background: linear-gradient(to right, #7b4397, #dc2430); 
+
     color: white;
-    top: 0px;
+    top: -90px;
     width: 400px;
     height: 70px;
     text-align: center;
     padding: 10px;
+    margin: auto;
 }
 
 .alertDemo h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    margin-left: 70px;
+    margin-left: 0px;
     font-size: 30px;
 }
 

@@ -1,17 +1,53 @@
-const express = require('express');
-const connectDB = require('./config/db');
+const express = require('express')
+const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
+const nodemailer = require('nodemailer')
 const path = require('path')
 
-const app = express();
-
-connectDB();
+const app = express()
 
 app.use(express.json({ extended: false }));
 
-app.use('/api/items', require('./routes/api/items'))
-app.use('/api/users', require('./routes/api/users'))
-app.use('/api/auth', require('./routes/api/auth'))
-app.use('/api/lists', require('./routes/api/lists'))
+app.post('/api/form', (req, res) => {
+    const output = `
+    <p>You have a new contact request</p>
+    <h3>Contact Details</h3>
+    <ul>
+        <li>Name: ${req.body.name}</li>
+        <li>Email: ${req.body.email}</li>
+        <li>Subject: ${req.body.subject}</li>
+    </ul>
+    <h3>Message</h3>
+    <p>${req.body.message}</p>
+    `
+    const nodemailer = require('nodemailer')
+
+    // create reusable transporter object using the default SMTP transport
+    let transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'geordysportfolio@gmail.com',
+            pass: 'geordy456'
+        }
+    })
+
+    let mailOptions = {
+        from: 'geordysportfolio@gmail.com',
+        to: 'geordysportfolio@gmail.com',
+        subject: 'Inquiry from Portfolio',
+        text: '',
+        html: output
+    }
+
+    transporter.sendMail(mailOptions, function (err, data) {
+        if (err) {
+            console.log("Error occurs")
+        }
+        else {
+            console.log("Email sent")
+        }
+    })
+})
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
@@ -19,7 +55,6 @@ if (process.env.NODE_ENV === 'production') {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
     });
 }
-
 
 const PORT = process.env.PORT || 5000;
 

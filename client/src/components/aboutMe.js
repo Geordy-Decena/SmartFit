@@ -44,12 +44,12 @@ function AboutMe() {
         else {
             setEmail({ ...isEmail, isValid: true })
             console.log("WENT THROUGH", isEmail.isValid)
-            // const form = axios.post('/api/form', {
-            //     name,
-            //     email,
-            //     subject,
-            //     message
-            // })
+            const form = axios.post('/api/form', {
+                name,
+                email,
+                subject,
+                message
+            })
             exportToggle = false
             e.target.reset()
         }
