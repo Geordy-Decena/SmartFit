@@ -2,6 +2,32 @@
     z-index: 999999999999999999;
 }
 
+.loadingLargeScreen-entering{
+    animation: loadingLargeScreen;
+    animation-duration: 8s;
+}
+
+@keyframes loadingLargeScreen{
+    0%{opacity: 0;}
+    60%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.loadingSmallScreen{
+    z-index: 999999999999999999;
+}
+
+.loadingSmallScreen-entering{
+    animation: loadingSmallScreen;
+    animation-duration: 8s;
+}
+
+@keyframes loadingSmallScreen{
+    0%{opacity: 0;}
+    60%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
 .loading{
     position: fixed;
     width: 100%;
