@@ -21,7 +21,7 @@
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
-    "nodemailer": "^6.4.11",
+    "nodemailer": "^6.4.16",
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.5.0",
     "request": "^2.88.2",
